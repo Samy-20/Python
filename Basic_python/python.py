@@ -1,4 +1,4 @@
-# Pytho is object-oriented programming language
+# Python is object-oriented programming language
 
 print("Hello Sahil")
 
