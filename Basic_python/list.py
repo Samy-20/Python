@@ -21,11 +21,38 @@
 # for i in formula:
 #     print(i)
 
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-newlist = []
+# hatchback = ["Civic type-R", "Polo GT", "Golf GTI", "Fornx", "Cadilac"]
+# new_car = []
 
-for x in fruits:
-  if "a" in x:
-    newlist.append(x)
+# for x in hatchback:
+#     if "c" in x:
+#         new_car.append(x)
 
-print(newlist)
+# print(new_car)
+
+
+# # Sort method 
+# # sort the name of hatchback on basis of alphabetical order
+# hatchback = ["Civic type-R", "Polo GT", "Golf GTI", "Fornx", "Cadilac"]
+# hatchback.sort()
+# print(hatchback)
+
+
+# engine = [2.0, 1.2, 1.0, 3.0, 4.0] # arrange the number in sequencial order
+# engine.sort() # sort(reverse = True)  // reverse the sequence of numbers
+# print(engine)
+
+# copy List
+
+# car = ["civic type-R", "BMW M3", "Mercedes AMG", "Audi R8", "Fornx"]
+# my_car = car[:]
+# print(my_car)
+
+
+# Suv = ["Defender", "Cadillac", "G-Wagon", "Jimmy", "Range Rover Evoque"]
+# Sedan = ["BMW M8", "Virtus", "Verna", "Amaze",  "Civic"]
+
+# for x in Sedan:
+#     Suv.append(x)
+
+# print(Suv)
