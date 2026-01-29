@@ -62,7 +62,7 @@ sedan = {
         "cylinder" : 8
     },
     "Accord" : {
-        "Brand" : "hundai",
+        "Brand" : "honda",
         "engine" : "2.0li",
         "cylinder" : 4
     }
