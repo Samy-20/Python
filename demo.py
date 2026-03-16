@@ -1,13 +1,18 @@
-def is_power_of_three(n):
-    if n <= 0:
-        return False
-    while n % 3 == 0:
-        n //= 3
-    return n == 1
+# def is_power_of_three(n):
+#     if n <= 0:
+#         return False
+#     while n % 3 == 0:
+#         n //= 3
+#     return n == 1
 
-# Example usage
-number = int(input("Enter a number: "))
-if is_power_of_three(number):
-    print(f"{number} is a power of 3.")
-else:
-    print(f"{number} is not a power of 3.")
+# # Example usage
+# number = int(input("Enter a number: "))
+# if is_power_of_three(number):
+#     print(f"{number} is a power of 3.")
+# else:
+#     print(f"{number} is not a power of 3.")
+
+l = [1,2,34]
+
+for x in l:
+    print(x + 2)

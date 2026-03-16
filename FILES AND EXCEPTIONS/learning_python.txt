@@ -1,0 +1,16 @@
+hey, i start learning python from datatypes
+python contains a two diffrential datatypes such as 1) mutables and 2) immutales
+
+1) mutables are they cannot modify, they are predefine
+example, tuples, string, frozensets, etc 
+
+
+2) immutables are those can be modify the data
+example, lists, dictionary, set etc
+
+python is a interpreted, high-level and object-oriented programming language
+
+a) interpreted - It means the line by line execution of a program 
+b) high-level - A language that are higher level of programming language
+c) object-oriented - A language that can store a real objects with there properties(methods)
+
