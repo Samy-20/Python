@@ -34,7 +34,7 @@ class Mahindra(Suv):
         self.year = year
         self.engine = engine
         
-        def display(self):
+    def display(self):
             print(f"{self.model} is a brand of Mahindra lanching year {self.year} with {self.engine} cylinder engine")
 
 suv1 = Mahindra("Scorpio N", 2000, 4)

@@ -1,8 +1,8 @@
 class Playlist:
-    def __init__(self, name):
+    def __init__(self, name, creater):
         self.name = name
         self.songs = [] # these a list called "songs"
-        self.artist
+        self.creater = creater
         
     def add_song(self, song):
         self.songs.append(song)
@@ -14,12 +14,12 @@ class Playlist:
             print("song is removed")
             
     def show_song(self):
-        print(f"Playlist {self.name}")
-        print(f"- {self.artist}")
+        print(f"Playlist -> {self.name}")
+        print(f"creaeter of playlist - {self.creater}")
         for song in self.songs:
             print(f" - {song}")
         
-my_playlist = Playlist("Funk")
+my_playlist = Playlist("Funk", "AI sync")
 my_playlist.add_song("Semparo")
 my_playlist.add_song("Aura")
 

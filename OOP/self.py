@@ -8,8 +8,8 @@ class Myclass:
         my.name = name
         my.age = age
     
-    def output(sam):
-        print('hello\t' + sam.name)
+    def output(my):
+        print('hello\t' + my.name)
         
 c1 = Myclass('sahil', 2)
 c1.output()
