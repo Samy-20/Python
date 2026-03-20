@@ -10,15 +10,15 @@ class Stcak:
         
     def push(self, value):
         new_node = Node(value)
-        new_node.next = self.head
+        new_node.next = self.head # type: ignore
         self.head = new_node
         self.size += 1
     
     def pop(self):
         if self.isEmpty:
             return"Stack is empty"
-        pop_value = self.head.value
-        self.head = self.head.next
+        pop_value = self.head.value # type: ignore
+        self.head = self.head.next # type: ignore
         self.size -= 1
         return pop_value.value
         
@@ -28,12 +28,12 @@ class Stcak:
     def peek(self):
         if self.isEmpty:
             print("Stack is empty")
-        return self.head.value
+        return self.head.value # type: ignore
         
     def sizeStack(self):
         return self.size
     
-    def travese(self):
+    def traverse(self):
         currentNode = self.head
         while currentNode:
             print(currentNode.value, end = "->")
@@ -41,10 +41,10 @@ class Stcak:
         print()
         
 s1 = Stcak()
-s1.push(1)
+s1.push(1)  
 s1.push(3)
 s1.pop()
-s1.travese()
+s1.traverse()
 print(s1.peek())
 print(s1.sizeStack())
 
