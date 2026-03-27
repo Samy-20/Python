@@ -1,0 +1,4 @@
+Link list
+
+Is a collection of element with present a two variables are "data" (store a actual element value) and "next" (store a next address of element)
+
